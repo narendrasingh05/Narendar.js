@@ -22,3 +22,4 @@ console.table([accountId, accountEmail, accountName, accountPassword,accountCity
 
 /*prefer nat to use var because of issue in bloke scope and functional scope */
 
+
