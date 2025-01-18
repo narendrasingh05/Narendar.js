@@ -15,4 +15,4 @@ let isLoggedin = 1;
 let booleanIsLoggedin = boolean(isLoggedin);
 console.log(booleanIsLoggedin);
 console.log(valueInNumber);
-console.log()
+
