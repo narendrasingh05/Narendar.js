@@ -1,11 +1,11 @@
 //console.log("narendar singh");
-name = "narendar singh";
+fullName = "narendar singh";
 age = 25;
 price =99.9;
 x = null;
 y = undefined;
-isfollow = true;
+isFollow = true;
+console.log(fullName);
 
 
-console.table(name, age, x, y, isfollow);
 
