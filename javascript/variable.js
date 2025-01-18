@@ -1,12 +1,10 @@
-const accountId = "1445566"
-let accountName = "narendar"
-var accountEmail = "nk@gamail.com"
-let accountPassword = "123456";
+name = "narendar singh";
+age = 25;
+price =99.9;
+x = null;
+y = undefined;
+isfollow = true;
 
-accountCity = "bahraich";
 
-//accountId = 2345;
+console.table(name, age, x, y, isfollow);
 
-//console.log(accountId);
-
-console.table([accountId, accountName, accountEmail, accountPassword, accountCity]);
