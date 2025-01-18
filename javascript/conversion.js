@@ -1,4 +1,4 @@
-//  let score = "33abc"
+ let score = "33";
 
 
 // console.log(typeof score);
@@ -10,9 +10,12 @@
 //"33" => 33
 // "33abc" => nan
 // true => 1; false => 0
+// null => 0
 
 let isLoggedin = 1;
-let booleanIsLoggedin = boolean(isLoggedin);
-console.log(booleanIsLoggedin);
+
+let valueInNumber = Number(isLoggedin);
+console.log(valueInNumber);
+
 
 
