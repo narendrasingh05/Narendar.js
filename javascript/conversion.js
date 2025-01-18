@@ -16,6 +16,8 @@ let isLoggedin = 1;
 
 let valueInNumber = Number(isLoggedin);
 console.log(valueInNumber);
+let booleanIsLoggedin = Boolean(valueInNumber);
+console.log(booleanIsLoggedin);
 
 
 
