@@ -5,7 +5,7 @@ price =99.9;
 x = null;
 y = undefined;
 isFollow = true;
-console.log(fullName);
+console.table([fullName, age, price, x, y, isFollow]);
 
 
 
