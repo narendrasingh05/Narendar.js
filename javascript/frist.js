@@ -10,3 +10,4 @@ console.table([typeof fullName, typeof age, typeof price, typeof x, typeof y, ty
 
 
 
+
