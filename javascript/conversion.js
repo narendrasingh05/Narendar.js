@@ -1,23 +1,19 @@
- let score = "33";
+let score = "100";
 
+console.log(typeof score); // number
+console.log(typeof (score)); // number
 
-// console.log(typeof score);
+let valueInNumber = Number(score);
+console.log(typeof valueInNumber); // number
 
-// let valueInNumber = Number(score);
-// console.log(typeof valueInNumber);
-// console.log(valueInNumber);
+console.log(valueInNumber); // 100
 
-//"33" => 33
-// "33abc" => nan
-// true => 1; false => 0
-// null => 0
+let score2 = null;
+console.log(Number(score2)); // 0
+console.log(typeof score2); // object
 
-let isLoggedin = 1;
-
-let valueInNumber = Number(isLoggedin);
-console.log(valueInNumber);
-let booleanIsLoggedin = Boolean(valueInNumber);
-console.log(booleanIsLoggedin);
-
+let score3 = undefined;
+console.log(Number(score3)); // NaN
+console.log(typeof score3); // undefined
 
 
