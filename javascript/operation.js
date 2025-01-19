@@ -18,3 +18,25 @@ let value = 3;
 let gameCounter = 100;
 gameCounter = gameCounter + 10;
 console.log(gameCounter); // 110
+
+gameCounter += 10;
+console.log(gameCounter); // 120
+
+gameCounter -= 10;
+console.log(gameCounter); // 110
+
+gameCounter *= 10;
+console.log(gameCounter); // 1100
+
+gameCounter /= 10;
+console.log(gameCounter); // 110
+
+gameCounter %= 10;
+console.log(gameCounter); // 0
+
+gameCounter++;
+console.log(gameCounter); // 1
+
+gameCounter--;
+console.log(gameCounter); // 0
+
