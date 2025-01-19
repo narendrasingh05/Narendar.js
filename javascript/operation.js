@@ -15,4 +15,6 @@ let value = 3;
 // console.log("1" + (2 + 2)); // 14
 // console.log(1 + 2 + "2" + 3 + 4); // 3234
 
-let x = 10;
+let gameCounter = 100;
+gameCounter = gameCounter + 10;
+console.log(gameCounter); // 110
