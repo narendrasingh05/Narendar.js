@@ -9,8 +9,9 @@ let identityCard = 123456789;{
     console.table([identityCard, fullName, fatherName, age, villege, district, state, pincode]);
 }
 //you can print this code like this:
-//console.table("My name is " + fullName + ". My father's name is " + fatherName + ". I am " + age + " years old. I live in " + villege + ", " + district + ", " + state + ". My pincode is " + pincode + ".");
+//console.table("My name is " + fullName + ". My father's name is " + fatherName + ". I am " + age + " years old. I live in " + villege + ", " + district + ", " + state + ". My pincode is " + pincode + "."); 
 
+let userInput = score;
 let score = 100;{
     prompt("Enter your score: 0-100"); //it will prompt the user to enter the score
     if (score >= 100) {
