@@ -46,3 +46,32 @@ let user = {
 };
 console.log(user.name); // John
 console.log(user.age); // 30
+
+//number
+let num = 100;
+console.log(num); // 100
+
+//string
+let str = 'Hello';
+console.log(str); // Hello
+
+//boolean
+let isGreater = 4 > 1;
+console.log(isGreater); // true
+
+//null
+let age = null;
+console.log(age); // null
+
+//undefined
+let x;
+console.log(x); // undefined
+
+//symbol
+let id = Symbol('id');
+console.log(id); // Symbol(id)
+
+//bigint
+let value = 9007199254740991n;
+console.log(value); // 9007199254740991n
+
