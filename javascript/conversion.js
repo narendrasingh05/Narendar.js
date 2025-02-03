@@ -1,49 +1,36 @@
-// let score = "100";
+"use strict";
+//conversion & operations
 
-// console.log(typeof score); // number
-// console.log(typeof (score)); // number
+//convert string to number
+let str = '100';
+let num = Number(str);
+console.log(num); // 100
 
-// let valueInNumber = Number(score);
-// console.log(typeof valueInNumber); // number
+//convert number to string
+let num1 = 100;
+let str1 = num1.toString();
+console.log(str1); // 100
 
-//console.log(valueInNumber); // 100
+//convert string to boolean
+let str2 = 'true';
+let bool = Boolean(str2);
+console.log(bool); // true
 
-// let score2 = null;
-// console.log(Number(score2)); // 0
-// console.log(typeof score2); // object
+//convert boolean to string
+let bool1 = true;
+let str3 = bool1.toString();
+console.log(str3); // true
 
-// let score3 = undefined;
-// console.log(Number(score3)); // NaN
-// console.log(typeof score3); // undefined
+//convert number to boolean
+let num2 = 100;
+let bool2 = Boolean(num2);
+console.log(bool2); // true
 
-// "100" -> 100
-// "100abc" -> NaN
-//true => 1
-//false => 0
+//convert boolean to number
+let bool3 = true;
+let num3 = Number(bool3);
+console.log(num3); // 1
 
-let isLoggedIn = 1;
-
-let booleanIsLoggedIn = Boolean(isLoggedIn);
-console.log(booleanIsLoggedIn); // true
-
-let isLoggedIn2 = "narendar singh";
-let booleanIsLoggedIn2 = Boolean(isLoggedIn2);
-console.log(booleanIsLoggedIn2); // true
-
-let isLoggedIn3 = "";
-let booleanIsLoggedIn3 = Boolean(isLoggedIn3);
-console.log(booleanIsLoggedIn3); // false
-
-let isLoggedIn4 = null;
-let booleanIsLoggedIn4 = Boolean(isLoggedIn4);
-console.log(booleanIsLoggedIn4); // false
-
-let isLoggedIn5 = undefined;
-let booleanIsLoggedIn5 = Boolean(isLoggedIn5);
-console.log(booleanIsLoggedIn5); // false
-
-let someNumber = 100;
-let stringNumber = someNumber.toString();
-console.log(stringNumber); // "100"
-console.log(typeof stringNumber); // string
-
+//NaN
+let num4 = Number('Hello');
+console.log(num4); // NaN
